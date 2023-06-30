@@ -1,0 +1,75 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --primary-link-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+    --footer-bcg-color: #2F303A;
+    --footer-link-color: rgba(255, 255, 255, 0.60);
+    --text-logo-accent: #000000;
+}
+
+li {
+    cursor: pointer;
+}
+
+.list {
+    list-style: none;
+}
+
+.text-logo {
+    color: var(--primary-link-color);
+    font-size: 26px;
+    font-family: Raleway;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.text-logo-accent {
+    color: var(--text-logo-accent)
+}
+
+.text-logo-footer {
+    color: var(--primary-white-color);
+}
+
+body {
+    font-family: Roboto;
+    color: var(--primary-text-color);
+}
+
+/*Navigation*/
+header {
+    background-color: var(--primary-white-color);
+}
+
+.nav-menu {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+}
+
+.nav-menu .link {
+    color: var(--title-text-color);
+}
+
+.nav-menu .link:hover,
+.nav-menu .link:focus,
+.adress-header .link:hover,
+.adress-header .link:focus {
+    color: var(--primary-link-color);
+}
+
+.nav-menu .link .current {
+    color: var(--primary-link-color);
+}
+
+.nav-menu a {
+    text-decoration: none;
+}
+
+.adress-header {
+    color: var(--primary-text-color);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+}
